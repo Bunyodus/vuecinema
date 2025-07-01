@@ -20,3 +20,38 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+body{
+    background-color: var(--dark);
+}
+.header_top{
+    background: linear-gradient(90.09deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px 0;
+    animation: bg 2s linear infinite;
+}
+@keyframes bg{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.header_top_text{
+    font-family: var(--c400);
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+    width: 166px;
+}
+.header_top_img{
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
