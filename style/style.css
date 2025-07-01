@@ -1,0 +1,22 @@
+@import "./style/fonts.css";
+:root{
+    --c700:"Comfortaa-Bold";
+    --c400:"Comfortaa-Regular";
+    --m700:"Montserrat-Bold";
+    --m400:"Montserrat-Regular";
+    --r700:"Roboto-Medium";
+    --r400:"Roboto-Regular";
+    --gold:#F18128;
+    --dark:#040D1F;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
